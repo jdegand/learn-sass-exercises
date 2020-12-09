@@ -1,0 +1,8 @@
+ $heading: 1;
+
+  @while $heading <= 6 {
+    h#{$heading}  {
+    font-size: 24px - 3px * $heading;
+    $heading: $heading + 1;
+  }
+}
